@@ -174,6 +174,22 @@ time {
  }
 }
 /* COLORS */
+.postcard .postcard__tagbox .orange.play:hover {
+  background: #f09c2e;
+  color: black;
+}
+.orange .postcard__title:hover {
+  color: #f09c2e;
+}
+.orange .postcard__bar {
+  background-color: #f09c2e;
+}
+.orange::before {
+  background-image: linear-gradient(-30deg, rgba(240, 156, 46, 0.1), transparent 50%);
+}
+.orange:nth-child(2n)::before {
+  background-image: linear-gradient(30deg, rgba(240, 156, 46, 0.1), transparent 50%);
+}
 .postcard .postcard__tagbox .green.play:hover {
   background: #79dd09;
   color: black;
